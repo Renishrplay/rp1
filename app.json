@@ -8,7 +8,7 @@
     "stack": "container",
     "env": {
         "LOG_CHANNEL": {
-            "description": "get from https://t.me/LeechDataBot.",
+            "description": "get from https://t.me/LeechingsRobot.",
             "value": ""
         },
         "BOT_TOKEN": {
