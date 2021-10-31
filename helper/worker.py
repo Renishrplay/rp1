@@ -120,6 +120,8 @@ async def encc(e):
                     Button.url("Developer - @RPLAY ™ ", url="t.me/renishrplay"),],
                 [   Button.url(
                     "ME VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
+            ],[   Button.url(
+                    "ME VIDEO COMPRESSOR BOT 2.0", url="t.me/Rplay_compressor_2_bot"),
             ],[
                 Button.url(
                     "Try VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
