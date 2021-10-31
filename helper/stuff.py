@@ -75,6 +75,14 @@ async def start(event):
                 Button.url(
                     "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
             ],
+            [
+                Button.url(
+                    "ABOUT ME", url="t.me/I_AM_RENISH"),
+            ],
+            [
+                Button.url(
+                    "FOR DYNO", url="t.me/dynos_rplay"),
+            ],
         ],
     )
 
@@ -139,6 +147,14 @@ async def beck(event):
             [
                 Button.url(
                     "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
+            ],
+            [
+                Button.url(
+                    "ABOUT ME", url="t.me/I_AM_RENISH"),
+            ],
+            [
+                Button.url(
+                    "FOR DYNO", url="t.me/dynos_rplay"),
             ],
         ],
     )
