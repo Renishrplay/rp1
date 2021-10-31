@@ -96,58 +96,6 @@ async def ihelp(event):
     await event.edit(
         "**🐠 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options",
         buttons=[Button.inline("BACK", data="beck")],
-                [
-                Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
-            ],
-            [
-                Button.url(
-                    "MAKE OWN",
-                    url="github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT",
-                ),
-                Button.url("CONTACT BOT", url="t.me/Rplay_renish_bot"),
-            ],
-            [
-                Button.url(
-                    "RPLAY ™ MOVIE",
-                    url="t.me/rplaymovie",
-                ),
-                Button.url(
-                    "RPLAY ™ STICKERS",
-                    url="t.me/addstickers/Rplay_movies_stickers_by_stickersthiefbot",
-                ),
-            ],
-            [
-                Button.url(
-                    "SUPPORT",
-                    url="t.me/rplay_support",
-                ),
-                Button.url(
-                    "DONATE",
-                    url="www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ9djlWz06a3lBM4QCkVCaxInU-S1wnY2bywgHXq0QGfQBVuzKD3iLj25qfqWugUxLezZC4-2qEwkHwkWlB6CwIycu5bvyC4IxsO29MpDtWfojP9Rf3xwQJzxrsE3dEHGenrO9rTGkJlfimzCwFJbOEHVFCzo9ZpU5cMrR70qBd-FX6LIC&onboardData=%7B%22country.x%22%3A%22CD%22%2C%22locale.x%22%3A%22en_US%22%2C%22intent%22%3A%22paypalme%22%2C%22redirect_url%22%3A%22https%253A%252F%252Fwww.paypal.com%252Fmyaccount%252Ftransfer%252Fhomepage%252Fexternal%252Fprofile%253FflowContextData%253DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ",
-                ),
-            ],
-            [
-                Button.url(
-                    "VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
-            ],
-            [
-                Button.url(
-                    "VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
-                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
-            ],
-            [
-                Button.url(
-                    "ABOUT ME", url="t.me/I_AM_RENISH"),
-            ],
-            [
-                Button.url(
-                    "FOR DYNO", url="t.me/dynos_rplay"),
-            ],
-        ],
     )
 
 
