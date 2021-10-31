@@ -69,6 +69,10 @@ async def start(event):
             ],
             [
                 Button.url(
+                    "VIDEO COMPRESSOR BOT 2.0", url="t.me/Rplay_compressor_2_bot"),
+            ],
+            [
+                Button.url(
                     "VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
             [
@@ -139,6 +143,10 @@ async def beck(event):
             [
                 Button.url(
                     "VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
+            ],
+            [
+                Button.url(
+                    "VIDEO COMPRESSOR BOT 2.0", url="t.me/Rplay_compressor_2_bot"),
             ],
             [
                 Button.url(
