@@ -1,6 +1,6 @@
 aiohttp
 python-decouple
 pyaesni
-https://github.com/Najimarani/12/archive/master.zip
+https://github.com/Renish-Rplay/Telethon/archive/master.zip
 html_telegraph_poster
 requests
