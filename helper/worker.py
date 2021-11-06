@@ -238,7 +238,7 @@ async def encod(event):
            pp.append(x.id)
         if (user.id) not in pp:
            return await xxx.edit(
-               "U Must Subscribe This Channel To Use This Bot",
+               "Already 2000 people using this bot so now you need to Subscribe This Channel To Use This Bot",
                buttons=[Button.url("JOIN CHANNEL", url="https://t.me/rplaymovie")],
             )
         if len(COUNT) > 14 and user.id != OWNER:
