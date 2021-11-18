@@ -118,11 +118,7 @@ async def encc(e):
             buttons=[
                 [
                     Button.url("Developer - @RPLAY ™ ", url="t.me/renishrplay"),],
-                [   Button.url(
-                    "ME VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
-            ],[   Button.url(
-                    "ME VIDEO COMPRESSOR BOT 2.0", url="t.me/Rplay_compressor_2_bot"),
-            ],[
+            [
                 Button.url(
                     "Try VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
@@ -177,7 +173,7 @@ async def sample(e):
     er = stderr.decode()
     try:
         if er:
-            await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+            await e.edit(str(er) + "\n\n**ERROR** Contact @renishrplay")
             COUNT.remove(e.chat_id)
             os.remove(dl)
             os.remove(out)
@@ -306,7 +302,7 @@ async def encod(event):
         rr = f"encode/{user.id}"
         if not os.path.isdir(rr):
             os.mkdir(rr)
-        bb = kk.replace(f".{aa}", " @R.Play™✓.mkv")
+        bb = kk.replace(f".{aa}", " @R.Play™✓.mp4")
         out = f"{rr}/{bb}"
         thum = "thumb.jpg"
         dtime = ts(int((es - s).seconds) * 1000)
@@ -386,9 +382,7 @@ async def customenc(e, key):
             buttons=[
                 [
                     Button.url("Developer - @RPLAY ™ ", url="t.me/renishrplay"),],
-                [   Button.url(
-                    "ME VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
-            ],[
+            [
                 Button.url(
                     "Try VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
@@ -414,7 +408,7 @@ async def customenc(e, key):
     a1 = await info(dl, e)
     a2 = await info(out, e)
     dk = await ds.reply(
-        f"🌟 added 2.0\nOriginal Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}",
+        f"🌟 added 3.0\nOriginal Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}",
         link_preview=False,
     )
     await ds.forward_to(LOG)
