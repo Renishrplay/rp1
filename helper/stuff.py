@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RENISH COMPRESSOR BOT` @Rplay_video_encoder_bot !\n\n\nI can COMPRESS VIDEO & Can Encode Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
+        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RPLAY ™ SUPER VIDEO ENCODER BOT` @Rplay_video_encoder_bot !\n\n\nI Can **ENCODE** Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
@@ -94,7 +94,7 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RENISH COMPRESSOR BOT` @Rplay_video_encoder_bot !\n\n\nI can COMPRESS VIDEO & Can Encode Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
+        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RPLAY ™ SUPER VIDEO ENCODER BOT` @Rplay_video_encoder_bot !\n\n\nI Can **ENCODE** Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
           buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
