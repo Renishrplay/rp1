@@ -33,7 +33,7 @@ def ts(milliseconds: int) -> str:
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
     days, hours = divmod(hours, 24)
-    tmp = (
+    dur = (
         ((str(days) + "d, ") if days else "")
         + ((str(hours) + "h, ") if hours else "")
         + ((str(minutes) + "m, ") if minutes else "")
