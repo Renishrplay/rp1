@@ -28,19 +28,17 @@ if not os.path.isdir("thumb/"):
     os.mkdir("thumb/")
 
 
-def stdr(seconds: int) -> str:
+def ts(milliseconds: int) -> str:
+    seconds, milliseconds = divmod(int(milliseconds), 1000)
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
-    if len(str(minutes)) == 1:
-        minutes = "0" + str(minutes)
-    if len(str(hours)) == 1:
-        hours = "0" + str(hours)
-    if len(str(seconds)) == 1:
-        seconds = "0" + str(seconds)
-    dur = (
-        ((str(hours) + ":") if hours else "00:")
-        + ((str(minutes) + ":") if minutes else "00:")
-        + ((str(seconds)) if seconds else "")
+    days, hours = divmod(hours, 24)
+    tmp = (
+        ((str(days) + "d, ") if days else "")
+        + ((str(hours) + "h, ") if hours else "")
+        + ((str(minutes) + "m, ") if minutes else "")
+        + ((str(seconds) + "s, ") if seconds else "")
+        + ((str(milliseconds) + "ms, ") if milliseconds else "")
     )
     return dur
 
