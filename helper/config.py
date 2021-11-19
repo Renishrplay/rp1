@@ -20,7 +20,6 @@ try:
     BOT_TOKEN = config("BOT_TOKEN", )
     OWNER = config("OWNER_ID", default=1990460616, cast=int)
     LOG = config("LOG_CHANNEL", cast=int) 
-    MCNL = "-1001576361605"
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
