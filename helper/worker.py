@@ -87,7 +87,7 @@ async def encc(e):
         er = stderr.decode()
         try:
             if er:
-                await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+                await e.edit(str(er) + "\n\n**ERROR** Contact @renishrplay")
                 COUNT.remove(e.chat_id)
                 os.remove(dl)
                 return os.remove(out)
@@ -109,7 +109,7 @@ async def encc(e):
         ds =  await e.client.send_file(
             e.chat_id,
             file=ok,
-            caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
+            caption=f"video compressed by @Rplay_video_encoder_bot \n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
             thumb=thum,
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
@@ -349,7 +349,7 @@ async def customenc(e, key):
     er = stderr.decode()
     try:
         if er:
-            await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+            await e.edit(str(er) + "\n\n**ERROR** Contact @renishrplay")
             COUNT.remove(e.chat_id)
             os.remove(dl)
             return os.remove(out)
@@ -373,7 +373,7 @@ async def customenc(e, key):
         ds = await e.client.send_file(
             e.chat_id,
             file=ok,
-            caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
+            caption=f"video compressed by @Rplay_video_encoder_bot \n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
             thumb=thum,
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
